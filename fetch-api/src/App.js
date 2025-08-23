@@ -1,7 +1,10 @@
+import React from "react";
+import FetchAPI from "./components/FetchAPI";
+
 function App() {
   return (
     <div className="App">
-      <h2>Hello</h2>
+      <FetchAPI />
     </div>
   );
 }
