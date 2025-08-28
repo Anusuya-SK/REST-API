@@ -26,7 +26,7 @@ function FetchAPI() {
 
   return (
     <div>
-      {data.map((post) => (
+      {data.slice(0, 5).map((post) => (
         <div key={post.id}>
           <h3>{post.title}</h3>
           <p>{post.body}</p>
