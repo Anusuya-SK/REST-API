@@ -27,6 +27,7 @@ function HandleAPIError() {
   return (
     <div>
         <hr />
+        <h2>Basic error handling</h2>
         {data.slice(0, 5).map((item) => {
             return <li key={item.id}>{item.title}</li>
         })}
